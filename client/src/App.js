@@ -17,12 +17,11 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn Kubernetes!!!
+            Fib Calculator on Kubernetes!!!
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
         </header>
-        <div> </div>
         <div>
           <Route exact path="/" component={Fib} />
           <Route path="/otherpage" component={OtherPage} />
